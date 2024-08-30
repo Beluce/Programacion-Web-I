@@ -1,0 +1,66 @@
+table {
+  margin: 0 auto;
+  font-family: "Handjet", sans-serif;
+  font-size: 28px;
+  width: 75%;
+  border-collapse: separate;
+  border-spacing: 0;
+
+  border-radius: 10px;
+  overflow: hidden;
+  border: 3px solid lightgray;
+}
+
+td,
+th {
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  /*border: none;*/
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.menu td {
+  background-color: pink;
+}
+
+.compiladores td {
+  background-color: lavender;
+}
+
+.diseno-logico td {
+  background-color: lightblue;
+}
+
+.algoritmos td {
+  background-color: lightgreen;
+}
+
+.programacion-web-ii td {
+  background-color: peachpuff;
+}
+
+.lenguajes-formales td {
+  background-color: lightyellow;
+}
+
+.programacion-web-i td {
+  background-color: thistle;
+}
+
+.administracion-proyectos td {
+  background-color: mistyrose;
+}
+
+.lab-diseno-logico td {
+  background-color: paleturquoise;
+}
+
+td:empty {
+  background-color: honeydew;
+}
